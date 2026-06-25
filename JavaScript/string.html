@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>String</h1>
+    <script>
+        // string concatenation
+        let firstName = "Developer";
+        let lastName = "Kyaw Gyi";
+
+        // let fullName = firstName + " " + lastName + "I am 23 years old";
+        // let fullName = ${firstName} ${lastName}. I am 23 years old;
+        // console.log(fullName);
+
+
+        // let fullName = "<h1> My name is " + firstName + " " + lastName  + "</h1>";
+        let fullName = "<h1> My name is ${firstName} ${firstName}</h1>";
+        document.write(fullName);
+
+        document.write(fullName.toUpperCase());
+        document.write(fullName.toLowerCase());
+
+        let name = "My name is Min Kyaw. I am 23 years old";
+        document.write(name.substr(11,13));
+        document.write("<br>");
+
+        let job = "         Developer       Min Kyaw        ";
+        document.write(job.trim());
+
+        let ser = "Developer Min";
+        console.log(ser.serach("Min"));
+        console.log(ser.index0f("Min"));
+
+        let rep = "Developer Min";
+        console.log(rep.replace("Developer","Student"));
+        document.write("<br>");
+
+        let num = "1,222,344,555,666,777,888";
+        console.log(num.replace(/\,/g,''));
+
+        document.write("I'm Min Kyaw");
+        document.write("<br>");
+
+        document.write("I\'m Min Kyaw");
+        document.write("<br>");
+
+        document.write("I'm Min Kyaw, 5' 7\"");
+        document.write("<br>");
+        document.write(`I'm Min Kyaw, 5' 9" and I'm a Developer`)
+
+
+    </script>
+    
+</body>
+</html>

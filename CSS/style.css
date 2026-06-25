@@ -66,3 +66,40 @@ div:target{
     text-transform: uppercase;
     letter-spacing: 5px;
 }
+
+/* Border */
+.borderOne{
+    border: 5px solid black;
+    /* Border can write three things */
+    /* size style color */
+}
+
+.borderTwo{
+    border-top: 5px double green;
+    border-left: 5px dotted white;
+    border-right: 5px solid red;
+    border-bottom: 5px solid black;
+}
+
+/* border width */
+.borderThree{
+    border-style: solid;
+   /* border-width: 5px; */
+    /* T / R / B / L 8 */
+   /* border-width: 5px 10px; */
+    /* T&B / L&R */
+    /* border-width: 5px 10px 50px; */
+    /* T / L&R / B */
+    border-width: 5px 10px 50px ;
+}
+
+/* border style */
+.borderFour{
+    border-style: solid; /* color blank 1.5p */
+    border-style: dotted solid;
+    border-style: dotted dashed solid;
+    border-style: dotted dashed solid double;
+    border-width: 5px;
+    border-color: green yellow red blue;
+}
+
